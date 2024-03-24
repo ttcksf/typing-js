@@ -6,14 +6,16 @@ body {
 .count {
   margin: 0;
   font-weight: bold;
-  color: #888;
+  font-size: 64px;
+  color: #ff71cd;
 }
 
 .wrap {
   margin-top: 20px;
-  padding: 80px 40px;
-  background: #666;
+  padding: 16px 40px;
+  background: #8b93ff;
   font-weight: bold;
+  font-size: 40px;
   color: #fff;
 }
 
@@ -23,4 +25,18 @@ body {
 
 .mistyped {
   background: red;
+}
+
+.btn {
+  width: 240px;
+  height: 64px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background: #5755fe;
+  color: #fff7fc;
+  font-size: 24px;
+  font-weight: bold;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
 }
